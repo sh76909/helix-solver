@@ -12,6 +12,7 @@ static constexpr uint32_t MAX_STUB_NUM = 100000;
 // TODO: rename
 // * Must be a power of 2
 static constexpr float ACC_WIDTH = 64;
+static constexpr float ACC_WIDTH = Q_OVER_P_END - Q_OVER_P_BEGIN;
 // TODO: rename
 // * Must be a power of 2
 static constexpr float ACC_HEIGHT = 256;
